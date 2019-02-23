@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: microservice1
+  cloud:
+    config:
+      failFast: false
+      uri: http://localhost:8888
