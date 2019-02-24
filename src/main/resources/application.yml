@@ -1,5 +1,5 @@
 server:
-  port: 8091
+  port: ${PORT:8091}
 
 logging:
   file: logs/${spring.application.name}.log
@@ -7,3 +7,8 @@ logging:
     com.netflix.discovery: 'OFF'
     org.springframework.cloud: 'DEBUG'
     domain: 'DEBUG'
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
