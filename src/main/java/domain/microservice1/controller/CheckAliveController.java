@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("check")
 public class CheckAliveController {
 
-
-    @ApiOperation(value="check", nickname="check", response=String.class)
     @GetMapping("")
     public String check(){
         return "OK";

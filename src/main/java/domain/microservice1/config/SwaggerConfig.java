@@ -33,7 +33,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("Microservice 1")
-                .description("demo")
+                .description("Microservice 1, demo to Microservices project")
                 .version("0.0.1-SNAPSHOT")
                 .license("MIT")
                 .licenseUrl("https://opensource.org/licenses/MIT")
